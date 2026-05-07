@@ -1,0 +1,31 @@
+# Core API
+fastapi==0.117.1
+uvicorn[standard]==0.37.0
+pydantic==2.11.3
+pydantic-settings==2.9.1
+
+# Database
+sqlalchemy==2.0.40
+psycopg[binary]==3.2.7
+alembic==1.15.2
+
+# Task queue
+celery[redis]==5.5.1
+redis==5.2.1
+
+# LLM / integrations
+openai==1.75.0
+httpx==0.28.1
+python-dotenv==1.1.0
+
+# Scanners available as Python packages
+semgrep==1.118.0
+bandit==1.8.3
+
+# Helpful utilities
+orjson==3.10.16
+python-multipart==0.0.20
+
+# Installed separately as binaries, not via pip:
+# - gitleaks
+# - trivy
